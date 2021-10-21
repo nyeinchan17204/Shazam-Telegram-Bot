@@ -8,7 +8,7 @@ shazam = Shazam()
 
 class bot(Client):
     def __init__(self, name):
-        config_file = f"{name}.ini"
+        config_file = f"name.ini"
         config = ConfigParser()
         config.read(config_file)
         name = name.lower()
